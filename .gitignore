@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+ENV/
+*.egg-info/
+
+# Data
+data/*.csv
+!data/.gitkeep
+
+# Outputs
+outputs/*.csv
+outputs/*.png
+!outputs/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
